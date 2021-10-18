@@ -1,0 +1,209 @@
+<!--   BANCO DE IDEIAS
+
+CORES DOS TITULOS:
+
+#BE328C BORDO		RGB - 190-050-140
+#FAE6FA	LIGHT BORDO	RGB - 250-230-250 
+
+#fadcbe			RGB - 250-220-190 [SUGESTÃO DA ROZANE]
+-->
+
+<!-- PERSONALIZADO -->
+
+.link_normal {color=#0033cc; text-decoration: none}
+
+.margem2	{margin-left: 10px; margin-top: 0px; margin-right: 0px}
+
+.margem1	{margin-top: 2px; margin-bottom: 2px; margin-left: 2px; margin-right: 2px }
+
+.P_menu 	{font-style: normal; color: #BE328C;
+         	 font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+        	 font-size: 11px; text-align: center }
+
+.P_copy 	{font-style: normal; color: #680808;
+         	 font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+        	 font-size: 9px; text-align: center }
+
+.mini		{
+			font-style: normal; color: darkblue;
+         	 	font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+        	 	font-size: 9px; text-align: justified
+		}
+		
+
+.centralizado	{
+			font-style: normal; color: #666666;
+                	font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+                	font-size: 11px; text-align: center; margin-top: 6px; margin-bottom: 12px
+		}
+
+.margem3	{margin-left: 8px}
+
+.bodycentral   { background: #FFFFFF; margin-left: 0px; margin-top: 0px; margin-bottom: 0px }
+
+.bodypages   { background: #FFFFFF; margin-left: 0px; margin-top: 0px; margin-bottom: 0px }
+
+.bodyfoto	{background: #BE328C; margin-left: 0px; margin-top: 0px; margin-bottom: 0px }
+
+
+.menuinf	{background: #808080}
+
+.scandal 	{	font-style: normal; color: #BE328C;
+         	 	font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+        	 	font-size: 18px; text-align: left
+		 }
+
+.scandal1 	{	font-style: normal; color: #FFFFFF;
+         	 	font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+        	 	font-size: 16px; text-align: center
+		 }
+
+.titulo		{	
+			
+			color: #BE328C; font-weight: bolder; 
+	 		font-family: "Verdana, Arial, Helvetica, sans-serif"; font-size:12px;
+			text-align: center
+			
+		}
+
+.titulo1		{	
+			
+			color: #BE328C; font-weight: bolder; 
+	 		font-family: "Verdana, Arial, Helvetica, sans-serif"; font-size:12px;
+			text-align: justified
+			
+		}
+.tdsidemenu	{
+			border-right: thin dotted ##EAEAEA
+			
+		}
+
+
+.tdtitle	{
+			background: #FAE6FA;
+			border-bottom: thin solid #BE328C; 
+			border-top:    thin solid #BE328C;
+			border-left:   thin solid #BE328C;	
+			border-right:  thin solid #BE328C  
+		}
+
+.tdtext		{	
+			
+			border-bottom: thin dotted #EAEAEA;
+			border-left:  thin dotted #EAEAEA ;
+			border-right: thin dotted #EAEAEA  			
+		 }
+
+.fulldotframe	{	
+			border-top: thin dotted #EAEAEA;
+			border-bottom: thin dotted #EAEAEA;
+			border-left:  thin dotted #EAEAEA ;
+			border-right: thin dotted #EAEAEA  			
+		 }
+
+.moldura	{
+			border-bottom: thin solid #BE328C; 
+			border-top:    thin solid #BE328C;
+			border-left:   thin solid #BE328C;	
+			border-right:  thin solid #BE328C  
+		}
+
+.snapshot	{	border: thin solid #FAE6FA;
+			height: 30px; width: 30px  
+		}	
+
+.borda		{
+			border: thin solid #FAE6FA
+			height: 140px; width: 100px
+		}
+
+.borda0		{
+			border: thin solid #FAE6FA
+			height: 500px; width: 400px
+		}
+
+.borda1		{
+			border: thin solid #FAE6FA
+			height: 70px; width: 70px
+		}
+
+.borda2		{
+			border: thin solid #FAE6FA
+		}
+
+.borda3		{
+			border: thin solid #FAE6FA
+			height: 300px; width: 200px
+		}
+
+.borda4		{
+			border: thin solid #FAE6FA
+			height: 300px; width: 150px
+		}
+
+.imgmenu	{	border: thin solid #FAE6FA;
+			height: 65px; width: 65px  
+		}	
+
+.imglist	{	border: thin solid #FAE6FA;
+			height: 70px; width: 70px  
+		}	
+
+.imgloja	{	border: thin solid #FAE6FA;
+			height: 100px; width: 100px  
+		}	
+.espaco01	{ left-padding: 5px}		
+
+.moldbanner	{	border: thin solid #FAE6FA}
+
+A.special:hover	{ text-decoration: underline; color: "orange"}
+
+.subtitulos 	{font-style: normal; color: #050096; font-size: 12px; 
+		 font-family: "Verdana, Arial, Helvetica, sans-serif";
+		 font-weight: bolder}
+
+.central   { background: #FAE6FA; margin-left: 0px; margin-top: 0px; margin-bottom: 0px }
+
+<!-- PREFERENCIAS -->
+
+
+BODY   { background: #FAE6FA; margin-left: 100px; margin-top: 20px; margin-bottom: 0px; 
+	scrollbar-face-color:#FAE6FA;
+	scrollbar-base-color:#FAE6FA;
+	scrollbar-arrow-color:black;
+	scrollbar-track-color:#F3F3F3;
+	scrollbar-shadow-color:#FAE6FA;
+	scrollbar-highlight-color:#FAE6FA;
+	scrollbar-3dlight-color:#BE328C;
+	scrollbar-darkshadow-Color:#BE328C	}
+
+
+A:link, A:visited, A:active	{ text-decoration: none; color: #BE328C }
+
+A:hover			{ text-decoration: underline; color: #050096}
+
+H1	{ font-style: normal; color: #050096; font-size: 20px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
+H2	{ font-style: normal; color: #050096; font-size: 18px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
+H3	{ font-style: normal; color: #607F9B; font-size: 16px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
+H4	{ font-style: normal; color: #050096; font-size: 14px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
+H5	{ font-style: normal; color: #050096; font-size: 12px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
+H6	{ font-style: normal; color: #666666; font-size: 11px; font-family: "Verdana, Arial, Helvetica, sans-serif" }
+
+P      	{ 	font-style: normal; color: #666666;
+                font-family: "Verdana, Arial, Helvetica, sans-serif" ; 
+                font-size: 11px; text-align: justified; margin-top: 6px; margin-bottom: 12px}
+
+
+TD	{border: none}
+
+BLOCKQUOTE {margin-left: 15px}
+
+HR 	{border: thin solid #FAE6FA}
+
+BACKGROUND {
+		background-repeat:no-repeat; 
+		background-position: right
+	   }
+		
+
+[IMG.main]		{margin-top: 2px; margin-bottom: 2px; margin-left: 2px; margin-right: 2px }

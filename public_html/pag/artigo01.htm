@@ -1,0 +1,205 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Fierezza - Sabonetes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../css/fierezza01.css" type="text/css">
+</head>
+
+<script language="javascript">
+  var win0 = null;
+  function NewWindow(mypage,myname,w,h,scroll)
+  {
+    LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+    TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+    settings ='height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable=no';
+    win0 = window.open(mypage,myname,settings);
+    win0.window.focus();
+    win0.window.resizeTo(w+20,h+30);
+  }
+ </script>
+
+
+
+
+<body class="bodycentral">
+
+<table id="quadro" width="500" height="400" border="0" cellpadding="0" cellspacing="0" bgcolor="white" align="center">
+<tr height="50%">
+   <td  width="100%" valign="top" align="left">
+	<p class="scandal">
+		Dicas para você - Cabelos: Mitos e Verdades  
+	</p>
+
+	<p> <hr> </p>
+	
+	<img  class="borda" src="../img/hair01.jpg" align="left"  valign="top" border="0">
+
+
+	<p>
+		<i> <b>Cabelos:  Acabe com os mitos </b></i>
+		<br><br>
+		A crença popular está cheia de receitas e histórias sobre os mais variados assuntos. 
+		Um dos preferidos são os cabelos. Quem já não ouviu alguém dizer que o uso de anticoncepcional 
+		no shampoo faz com que as madeixas fiquem mais longas? 						
+		<br><br>
+		Veja alguns outros mitos:
+		<div style="width:500px">
+      		<img src="../img/dw.gif" onMouseOver="movedown()" onMouseOut="stopscroll()" align="right" border=0>
+      		<img src="../img/up.gif" onMouseOver="moveup()"   onMouseOut="stopscroll()" align="right" border=0>
+  		</div> 		
+		<hr>
+	</td>
+</tr>
+<tr>
+	<td width="100%" valign="top" align="left">
+
+
+	<SCRIPT language="JavaScript1.2">
+
+     //specify speed of scroll (greater=faster)
+     var speed=5
+
+     iens6=document.all||document.getElementById
+     ns4=document.layers
+
+     if (iens6)
+     {
+      document.write('<div id="container" style="position:relative;width:500px;height:400px;overflow:hidden;border:0px solid #FAE6FA;background:white;color:black;">')
+      document.write('<div id="content" style="position:absolute;width:500px;left:0px;top:0px;padding-left:10px;padding-right:10px;">')
+     }
+     
+    </script>
+
+	
+
+    <span>
+
+     <ilayer name="nscontainer" width=200 height=450 clip="0,0,200,450">
+      <layer name="nscontent" width=200 height=450 visibility=hidden>
+
+       <!--INSERT CONTENT HERE-->
+
+      <ul>
+			<li>
+			<p> 	
+				Cortar as pontas dos fios danificados faz o cabelo crescer mais rápido. O cabelo cresce da raiz 
+				para as pontas, o que o corte pode fazer é melhorar o aspecto das pontas finas e bipartidas.
+			</p>
+			</li>
+			
+			<li>
+			<p>
+				Cabelo crespo cresce menos que o liso. Não pense assim, essa impressão é causada pelo enrolamento dos
+				fios. Em geral, os cabelos crescem, em média, 1,25 cm por mês. 
+			</p>
+			</li>
+
+			<li>
+			<p>
+				Lavar a cabeça todo dia faz mal. Para cabelos oleosos é a pior receita. Já para os secos, um intervalo 
+				de um dia entre as lavagens facilita que a gordura produzida no couro cabeludo chegue às pontas. 
+			</p>
+			</li>
+
+			<li>
+			<p>
+				A alimentação afeta os cabelos. A saúde dos cabelos está ligada à saúde como um todo. Mas não existe 
+				um tipo de alimento que atue diretamente sobre eles.
+			</p>
+			</li>
+
+			<li>
+			<p>
+				É prejudicial arrancar cabelos brancos. Não se forem poucos. Mas arrancar cabelos, brancos ou não, 
+				pode prejudicar o processo de crescimento de novos fios.
+			</p>
+			</li>
+
+			
+		</ul>
+		<hr>
+		<p>
+			Por: Rozane Frazolli - 12/07/2005 - &copy; 2005-2006
+		</p>
+
+       <!--END CONTENT-->
+
+      </layer>
+     </ilayer>
+
+     <script language="JavaScript1.2">
+
+      if (iens6)
+      {
+       document.write('</div></div>')
+       var crossobj=document.getElementById? document.getElementById("content") : document.all.content
+       var contentheight=crossobj.offsetHeight
+      }
+      else if (ns4)
+      {
+       var crossobj=document.nscontainer.document.nscontent
+       var contentheight=crossobj.clip.height
+      }
+
+      function movedown()
+      {
+       if (window.moveupvar) clearTimeout(moveupvar)
+        if (iens6&&parseInt(crossobj.style.top)>=(contentheight*(-1)+100))
+         crossobj.style.top=parseInt(crossobj.style.top)-speed+"px"
+        else if (ns4&&crossobj.top>=(contentheight*(-1)+100))
+         crossobj.top-=speed
+       movedownvar=setTimeout("movedown()",20)
+      }
+
+      function moveup()
+      {
+       if (window.movedownvar) clearTimeout(movedownvar)
+        if (iens6&&parseInt(crossobj.style.top)<=0)
+         crossobj.style.top=parseInt(crossobj.style.top)+speed+"px"
+        else if (ns4&&crossobj.top<=0)
+         crossobj.top+=speed
+       moveupvar=setTimeout("moveup()",20)
+      }
+
+      function stopscroll()
+      {
+       if (window.moveupvar) clearTimeout(moveupvar)
+        if (window.movedownvar) clearTimeout(movedownvar)
+      }
+
+      function movetop()
+      {
+       stopscroll()
+       if (iens6)
+        crossobj.style.top=0+"px"
+       else if (ns4)
+        crossobj.top=0
+      }
+
+      function getcontent_height()
+      {
+       if (iens6)
+        contentheight=crossobj.offsetHeight
+       else if (ns4)
+        document.nscontainer.document.nscontent.visibility="show"
+      }
+
+      window.onload=getcontent_height
+
+     </script>
+
+    
+
+    </span>
+
+
+	</td>
+		
+</tr>
+</table>
+  
+</body>
+</html>
+
+				
